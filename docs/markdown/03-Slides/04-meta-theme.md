@@ -306,10 +306,10 @@ Plusieurs helpers ont été créés afin de faciliter la manipulation des élém
 
 # Utilisation d'icônes de la librairie feather icons
 
-L'idée est de faire comme si l'on manipulait une image et l'on met le code feather dans la partie **`alt`** suivi de son code dans la librairie feather icons dans la zone réservée à l'url de l'image normalement.
+L'idée est de faire comme si l'on manipulait une image et l'on met le code 'sfeir-icons' dans la partie **`alt`** suivi de son code dans la librairie feather icons dans la zone réservée à l'url de l'image normalement.
 
 ```md
-![feather](github)
+![sfeir-icons](github)
 ```
 
 <!-- .element: class="big-code" -->
@@ -331,13 +331,13 @@ Il est à noter que l'on peut changer la couleur et la taille d'une icone via de
 
 Using markdown image
 
-![feather](github) basic icon
+![sfeir-icons](github) basic icon
 
-![feather small](github) small icon
+![sfeir-icons small](github) small icon
 
-![feather big](github) big icon
+![sfeir-icons big](github) big icon
 
-![feather](github)<!-- .element:
+![sfeir-icons](github)<!-- .element:
   style="--icon-size:96px;
   --icon-color:orange;" --> custom icon and custom color
 
