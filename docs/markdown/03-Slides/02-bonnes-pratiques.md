@@ -4,6 +4,8 @@
 
 ##==##
 
+<!-- .slide: data-type-show="restit" -->
+
 # Un bon slide est un slide simple
 
 Si un slide possède des éléments trop complexes, c'est qu'il ne sera pas facile à comprendre.
@@ -13,6 +15,39 @@ L'aspect "slides as code" permet de se concentrer sur le contenu et non sur la f
 Il faut prendre conscience que certaines mises en forme ne seront plus disponible mais cela ne veut pas dire qu'on limite la créativité et la transmission d'info
 
 ##==##
+
+<!-- .slide: data-type-show="prez" -->
+
+# Un bon slide est un slide simple
+
+Slide avec trop d'éléments = difficile à comprendre 🤯
+
+**"slides as code"** => Focus sur le **contenu**
+
+🙅 Toutes les mises en forme ne seront plus disponible => Créativité 🧑‍🎨
+
+##==##
+
+<!-- .slide: data-type-show="restit" -->
+
+# Utiliser le bon slide pour la bonne idée
+
+Ce thème propose différents types de slides qu'il faut utiliser pour le bon usage :
+
+- Slide de titre
+- Slide de speaker
+- Slide avec 2 colonnes
+- Slide de transition
+- Slide classique
+- Slide avec gestion de code
+- Slide de citations
+- Slide de pause
+- Slide d'exercice
+<!-- .element: class="list-fragment" -->
+
+##==##
+
+<!-- .slide: data-type-show="prez" -->
 
 # Utiliser le bon slide pour la bonne idée
 

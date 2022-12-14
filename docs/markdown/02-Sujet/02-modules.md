@@ -4,6 +4,8 @@
 
 ##==##
 
+<!-- .slide: data-type-show="restit" -->
+
 # Les modules la base d'une formation
 
 Pour une formation l'unité de savoir est le module.
@@ -14,6 +16,21 @@ Pour une formation l'unité de savoir est le module.
 
 ##==##
 
+<!-- .slide: data-type-show="prez" -->
+
+# Les modules la base d'une formation
+
+Pour une formation l'unité de savoir est le module.
+
+- Module = un **enjeu majeur**
+- Un module = (ou pas) plusieurs **sous parties**
+- Une formation = **choix** de modules adaptés
+<!-- .element: class="list-fragment" -->
+
+##==##
+
+<!-- .slide: data-type-show="restit" -->
+
 # Comment faire son découpage en modules ?
 
 Pour faire son découpage, on va naturellement s'appuyer sur le cocon sémantique et la mindmap
@@ -22,6 +39,20 @@ Pour faire son découpage, on va naturellement s'appuyer sur le cocon sémantiqu
 - Les chapitres peuvent devenir un module
 - Les idées au sein d'un chaptire constituent les sous parties du module
 - Il conviendra ensuite de respecter une nomenclature préfixée par des chiffres pour faciliter la lecture et la contribution en commançant systématiquement par **`00-`**
+
+##==##
+
+<!-- .slide: data-type-show="prez" -->
+
+# Comment faire son découpage en modules ?
+
+Pour faire son découpage, on va naturellement s'appuyer sur le cocon sémantique et la mindmap
+
+- Le regroupement d'idées forment des chapitres
+- Les chapitres peuvent devenir un module
+- Les idées au sein d'un chaptire constituent les sous parties du module
+- Respecter une nomenclature préfixée par des chiffres **`00-`**
+<!-- .element: class="list-fragment" -->
 
 ##==##
 

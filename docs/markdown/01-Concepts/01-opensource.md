@@ -17,6 +17,8 @@ Creative Common No derivative (Slides) / Apache License 2 (Code)
 
 ##==##
 
+<!-- .slide: data-type-show="restit" -->
+
 # Slides license - CC-BY-ND
 
 - **Creative Commons No Derivative**
@@ -25,15 +27,40 @@ Creative Common No derivative (Slides) / Apache License 2 (Code)
 - Vous **NE** pouvez **PAS** remixer l'oeuvre
 - Le partage de l'oeuvre est (toujours) permis
 - Le fichier `LICENSE` est dispo dans le répertoire `Docs`
+
+##==##
+
+<!-- .slide: data-type-show="prez" -->
+
+# Slides license - CC-BY-ND
+
+- **Creative Commons No Derivative**
+- **QUI ?**
+- ✅ Utilisation commerciale
+- ⛔️ de **remixer** l'oeuvre
+- ✅ Partage de l'oeuvre
+- Le fichier `LICENSE` dispo
 <!-- .element: class="list-fragment" -->
 
 ##==##
 
-# Code license
+<!-- .slide: data-type-show="restit" -->
 
-- **Apache License 2**
+# Code license - Apache License 2
+
 - Le code peut être réutilisé / distribué ou vendu sous une forme intégrée
 - Le fichier `LICENSE` est dispo à la racine du repository
+
+##==##
+
+<!-- .slide: data-type-show="prez" -->
+
+# Code license - Apache License 2
+
+- ✅ code peut être réutilisé
+- ✅ code peut être distribué
+- ✅ code peut être vendu sous une forme intégrée
+- Le fichier `LICENSE` est dispo
 <!-- .element: class="list-fragment" -->
 
 ##==##
@@ -63,7 +90,7 @@ https://github.com/sfeir-open-source/
 
 ##==##
 
-<!-- .slide: class="two-column" -->
+<!-- .slide: class="two-column" data-type-show="restit" -->
 
 # Comment contribuer ?
 
@@ -73,6 +100,22 @@ https://github.com/sfeir-open-source/
 
    1. Bien respecter le nom `sfeir-school-xxx` ou `xxx` est le nom de la techno
    1. Bien utiliser le template `sfeir-school-template`
+
+##--##
+
+<br><br>
+
+![center h-800](./assets/images/create-repo.png)
+
+##==##
+
+<!-- .slide: class="two-column" data-type-show="prez" -->
+
+# Comment contribuer ?
+
+1. Intégrer la team [sfeir-school](https://github.com/orgs/sfeir-open-source/teams/sfeir-school)
+1. Demander à l'admin de vous créer un repo
+<!-- .element: class="list-fragment" -->
 
 ##--##
 

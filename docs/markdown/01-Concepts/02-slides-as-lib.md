@@ -4,6 +4,8 @@
 
 ##==##
 
+<!-- .slide: data-type-show="restit" -->
+
 # Utilisation de la libraire
 
 Les slides sont basés sur le moteur de présentation :
@@ -13,6 +15,16 @@ Les slides sont basés sur le moteur de présentation :
 (framework html/JS/CSS/markdown de gestion de slides)
 
 ##==##
+
+<!-- .slide: data-type-show="prez" -->
+
+# Utilisation de la libraire
+
+![center h-700](./assets/images/revealjs-logo.png)
+
+##==##
+
+<!-- .slide: data-type-show="restit" -->
 
 # Sous le capot
 
@@ -25,6 +37,17 @@ Le thème sfeir school thème apparait comme unique point d'entrée pour nos sli
 
 ##==##
 
+<!-- .slide: data-type-show="prez" class="flex-row" -->
+
+# Sous le capot
+
+![center h-400](./assets/images/revealjs-logo.png)
+![center h-400](./assets/images/logo-lit.png)
+![center h-400](./assets/images/highlightjs-logo.png)
+![center h-400](./assets/images/feather-logo.png)
+
+##==##
+
 <!-- .slide: class="transition" -->
 
 # Utilisation & Installation - From Scratch
@@ -33,7 +56,22 @@ Le thème sfeir school thème apparait comme unique point d'entrée pour nos sli
 
 ##==##
 
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="with-code" data-type-show="prez" -->
+
+# Utilisation
+
+Possibilité d'être utilisé en dehors from scratch
+
+```sh
+# run
+$npm install sfeir-school-theme
+```
+
+<!-- .element: class="big-code"-->
+
+##==##
+
+<!-- .slide: class="with-code" data-type-show="restit" -->
 
 # Utilisation - Installation
 
@@ -48,7 +86,7 @@ $npm install sfeir-school-theme
 
 ##==##
 
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="with-code" data-type-show="restit"  -->
 
 # Utilisation - Préparation
 
@@ -68,7 +106,7 @@ shelljs.cp('-rf', './node_modules/sfeir-school-theme/*', './web_modules/sfeir-sc
 
 ##==##
 
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="with-code" data-type-show="restit" -->
 
 # Utilisation - Configuration du package.json
 
@@ -99,7 +137,7 @@ Voici un possible paramétrage du package.json
 
 ##==##
 
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="with-code" data-type-show="restit"  -->
 
 # Utilisation - Index.html
 
@@ -122,7 +160,7 @@ Voici un possible paramétrage du package.json
 
 ##==##
 
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="with-code" data-type-show="restit" -->
 
 # Utilisation - slide.js
 
@@ -142,13 +180,35 @@ SfeirThemeInitializer.init(formation);
 
 ##==##
 
+<!-- .slide: class="with-code" data-type-show="prez" -->
+
+# Utilisation - slide.js
+
+Choix des markdown
+
+<!-- prettier-ignore -->
+```js[1-2|4|3-7|8]
+import { SfeirThemeInitializer } 
+  from '../web_modules/sfeir-school-theme/sfeir-school-theme.mjs';
+function formation() {
+  return [ ...['00-school/00-TITLE.md'], ].map((slidePath) => {
+    return { path: slidePath };
+  });
+}
+SfeirThemeInitializer.init(formation);
+```
+
+<!-- .element: class="big-code max-height" -->
+
+##==##
+
 <!-- .slide: class="transition" -->
 
 # Utilisation - Après installation
 
 ##==##
 
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="with-code" data-type-show="restit" -->
 
 # Utilisation pour un dev front
 
@@ -160,11 +220,32 @@ $npm start
 
 <!-- .element: class="big-code" -->
 
-Il suffit ensuite de naviguer sur l'url suivante : http://localhost:3000. Le livereload sera branché automatiquement et les slides se recharcheront à chaque changement effectué dans les markdowns.
+Il suffit ensuite de naviguer sur l'url suivante : http://localhost:4242. Le livereload sera branché automatiquement et les slides se recharcheront à chaque changement effectué dans les markdowns.
 
 ##==##
 
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="with-code" data-type-show="prez"-->
+
+# Utilisation pour un dev front
+
+**Node > 16 !**
+
+```sh
+$npm start
+```
+
+<!-- .element: class="big-code" -->
+
+http://localhost:4242
+
+<!-- .element: class="fragment" -->
+
+Notes:
+Il suffit ensuite de naviguer sur l'url suivante : http://localhost:4242. Le livereload sera branché automatiquement et les slides se recharcheront à chaque changement effectué dans les markdowns.
+
+##==##
+
+<!-- .slide: class="with-code" data-type-show="restit" -->
 
 # Utilisation pour un dev qui n'a pas node
 
@@ -180,8 +261,39 @@ Il suffit ensuite de naviguer sur l'url suivante : http://localhost:5000
 
 ##==##
 
+<!-- .slide: class="with-code" data-type-show="prez" -->
+
+# Utilisation pour un dev qui n'a pas node
+
+Utiliser docker 🐳
+
+```sh
+$ docker run
+```
+
+<!-- .element: class="big-code" -->
+
+http://localhost:5000
+
+<!-- .element: class="fragment" -->
+
+##==##
+
+<!-- .slide: data-type-show="restit" -->
+
 # Mise à jour
 
 À partir de maintenant, la mise à jour du thème sera grandement simplifiée car il suffira juste de changer la version de la dépendance node dans son package.json et de relancer une installation de dépendances.
 
 La dernière version sera téléchargée et le script de préparation changera le script et le css dans le répertoire `web_modules`.
+
+##==##
+
+<!-- .slide: data-type-show="prez" -->
+
+# Mise à jour
+
+1. Mettre à jour son **package.json**.
+1. Relancer une **installation** de dépendances.
+1. Mise à jour du répertoire **`web_modules`**.
+<!-- .element: class="list-fragment" -->

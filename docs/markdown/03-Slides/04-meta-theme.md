@@ -4,6 +4,8 @@
 
 ##==##
 
+<!-- .slide: data-type-show="restit" -->
+
 # Meta-datas
 
 Ce thème comporte un grand nombre de méta-datas qui visent à simplifier l'écriture des slides en vue de rester concentrer sur le contenu et non sur la mise en forme.
@@ -14,6 +16,23 @@ Les métas datas seront toutes à introduire avec les commentaires
 Dans la grande majorité des cas, ces meta-datas seront des classes css. Souvent des méta datas peuvent être combinées.
 
 Ce chapitre ne traite que des méta-datas ajoutées en plus de celles proposées par RevealJS (prochain chapitre).
+
+##==##
+
+<!-- .slide: data-type-show="prez" -->
+
+# Meta-datas
+
+💡 : **simplifier** l'écriture des slides pour rester **concentrer sur le contenu**.
+
+Les métas datas seront toutes à introduire avec les commentaires
+"`<!-- .slide: -->`" ou "`<!-- .element: -->`".
+
+<!-- .element: class="fragment" -->
+
+Ces meta-datas seront des classes css etpeuvent être combinées.
+
+<!-- .element: class="fragment" -->
 
 ##==##
 
@@ -374,7 +393,7 @@ A few words !
 
 et dans mon html
 
-```html
+```html[3]
 <body>
   <div class="reveal">
     <div class="slides" data-type-show="prez">...</div>

@@ -1,10 +1,10 @@
 <!-- .slide: class="transition bg-white" -->
 
-# Thèmes
+# Thèmes (univers)
 
 ##==##
 
-<!-- .slide: class="flex-row" -->
+<!-- .slide: class="flex-row" data-type-show="restit" -->
 
 # Utilisation d'un thème (univers)
 
@@ -16,7 +16,17 @@ En plus de proposer un thème par défaut, cette librairie vous donne la possibi
 
 ##==##
 
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="flex-row" data-type-show="prez" -->
+
+# Utilisation d'un thème (univers)
+
+![w-600](./assets/images/first-slide.png)
+![w-600](./assets/images/first-slide-institute.png)
+![w-600](./assets/images/first-slide-conf.png)
+
+##==##
+
+<!-- .slide: class="with-code" data-type-show="restit" -->
 
 # Configuration du thème
 
@@ -34,6 +44,26 @@ Tout se passe au niveau du fichier `index.html`
 
 ##==##
 
+<!-- .slide: class="with-code" data-type-show="prez" -->
+
+# Configuration du thème
+
+## `index.html`
+
+```html[3|1-5]
+<body>
+  <div class="reveal">
+    <div class="slides" data-theme-slides="institute">...</div>
+  </div>
+</body>
+```
+
+<!-- .element: class="big-code" -->
+
+##==##
+
+<!-- .slide: data-type-show="restit" -->
+
 # Thèmes, valeurs possible
 
 Voici les valeurs possibles de l'attribut html `data-theme-slides` :
@@ -43,6 +73,21 @@ Voici les valeurs possibles de l'attribut html `data-theme-slides` :
 - ![w-400](./assets/images/first-slide-conf.png) : `conf`
 
 ##==##
+
+<!-- .slide: data-type-show="prez" -->
+
+# Thèmes, valeurs possible
+
+Voici les valeurs possibles de l'attribut html `data-theme-slides` :
+
+- ![w-400](./assets/images/first-slide.png) : `school` ou rien car valeur par défaut
+- ![w-400](./assets/images/first-slide-institute.png) : `institute`
+- ![w-400](./assets/images/first-slide-conf.png) : `conf`
+<!-- .element: class="list-fragment" -->
+
+##==##
+
+<!-- .slide: data-type-show="restit" -->
 
 # Impact du thème (univers)
 
@@ -55,6 +100,24 @@ Voici ce qu'impacte le choix d'un thème
 - Le slide d'exercice
 - La couleur des icons feather
 - Le header des tableau
+
+##==##
+
+<!-- .slide: data-type-show="prez" -->
+
+# Impact du thème (univers)
+
+Voici ce qu'impacte le choix d'un thème
+
+- 🟢 La couleur primaire utilisée
+- 1️⃣ Premier slide
+- 🌃 Fonds SFEIR (transition-bg-sfeir-1 to transition-bg-sfeir-3)
+- 🖍 Traits des titres
+- 🏋️ Le slide d'exercice
+- 🔵 La couleur des icons feather
+- 🧾 Le header des tableau
+
+<!-- .element: class="list-fragment" -->
 
 ##==##
 

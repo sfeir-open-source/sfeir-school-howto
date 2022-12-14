@@ -14,6 +14,8 @@ Tous les slides sont écrits en markdown et respectent les spécifications markd
 
 ##==##
 
+<!-- .slide: data-type-show="restit" -->
+
 # Séparateurs de slides
 
 Dans revealJS, nous pouvons naviguer verticalement et horizontalement. Dans le cadre de nos slides conçus avec le thème SFEIR, nous allons utiliser uniquement la navigation horizontale.
@@ -25,6 +27,20 @@ La navigation verticale ne servira que dans le cadre d'un hack nous permettant d
 
 ##==##
 
+<!-- .slide: data-type-show="prez" -->
+
+# Séparateurs de slides
+
+⚠️ RevealJS = navigation ↕️ ou ↔️.
+**Nous** = ↔️
+
+- Séparateur ↔️ : **\#\#==\#\#**
+- Séparateur ↕️ : **\#\#--\#\#**
+
+##==##
+
+<!-- .slide: data-type-show="restit" -->
+
 # Juste du markdown ?
 
 Oui, les slides ne se font qu'avec du markdown afin d'éviter un tooling trop compliqué.
@@ -32,6 +48,22 @@ Oui, les slides ne se font qu'avec du markdown afin d'éviter un tooling trop co
 Cependant, on enrichit énormément nos slides grace à des méta-datas ajoutées par ReavealJS. Ceci sera détaillé plus tard.
 
 De plus, le markdown nous laisse la possibilité de mettre du HTML pur en fonction du besoin si vous êtes à l'aise avec l'écriture HTML.
+
+##==##
+
+<!-- .slide: data-type-show="prez" -->
+
+# Juste du markdown ?
+
+Oui !
+
+Cependant, on enrichit avec des méta-datas.
+
+<!-- .element: class="fragment" -->
+
+De plus, markdown compatible avec le HTML
+
+<!-- .element: class="fragment" -->
 
 ##==##
 
